@@ -1,0 +1,16 @@
+<table>
+    <tr>
+        <th>Code</th>
+        <th>Name</th>
+        <th>Details</th>
+    </tr>
+
+    <% countries.forEach((country) => {%>
+        <tr>
+            <td><%= country.co_code %></td>
+            <td><%= country.co_name %></td>
+            <td><%= country.co_details %></td>
+
+        </tr>
+    <% }) %>
+</table>
